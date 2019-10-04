@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /srv/http/default/cars/Controllers</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=".css/bootstrap.min.css" rel="stylesheet">
+  <link href=".css/nv.d3.min.css" rel="stylesheet">
+  <link href=".css/style.css" rel="stylesheet">
+  <!--[if lt IE 9]>
+  <script src=".js/html5shiv.min.js"></script>
+  <script src=".js/respond.min.js"></script>
+  <![endif]-->
+ </head>
+ <body>
+  <header>
+   <div class="container">
+    <div class="row">
+     <div class="col-md-12">
+      <ol class="breadcrumb">
+        <li><a href="index.html">/srv/http/default/cars/Controllers</a></li>
+        <li class="active">(Dashboard)</li>
+
+      </ol>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CarController.php.html#3">CarController</a></td><td class="text-right">19%</td></tr>
+       <tr><td><a href="AdminController.php.html#3">AdminController</a></td><td class="text-right">23%</td></tr>
+       <tr><td><a href="ArticleController.php.html#3">ArticleController</a></td><td class="text-right">24%</td></tr>
+       <tr><td><a href="EnquiryController.php.html#3">EnquiryController</a></td><td class="text-right">33%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CarController.php.html#3">CarController</a></td><td class="text-right">598</td></tr>
+       <tr><td><a href="AdminController.php.html#3">AdminController</a></td><td class="text-right">495</td></tr>
+       <tr><td><a href="ArticleController.php.html#3">ArticleController</a></td><td class="text-right">86</td></tr>
+       <tr><td><a href="EnquiryController.php.html#3">EnquiryController</a></td><td class="text-right">63</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="AdminController.php.html#18"><abbr title="AdminController::loginForm">loginForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#173"><abbr title="CarController::deleteCar">deleteCar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#44"><abbr title="CarController::about">about</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#52"><abbr title="CarController::careers">careers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#59"><abbr title="CarController::viewCars">viewCars</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#69"><abbr title="CarController::editCar">editCar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#111"><abbr title="CarController::saveCar">saveCar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#149"><abbr title="CarController::deleteDir">deleteDir</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#183"><abbr title="CarController::archiveCar">archiveCar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#16"><abbr title="CarController::home">home</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#189"><abbr title="CarController::archivedCars">archivedCars</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#198"><abbr title="CarController::restoreCar">restoreCar</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnquiryController.php.html#14"><abbr title="EnquiryController::viewEnquiries">viewEnquiries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnquiryController.php.html#24"><abbr title="EnquiryController::contact">contact</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnquiryController.php.html#48"><abbr title="EnquiryController::saveEnquiry">saveEnquiry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnquiryController.php.html#58"><abbr title="EnquiryController::completeEnquiry">completeEnquiry</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnquiryController.php.html#63"><abbr title="EnquiryController::viewCompletedEnquiries">viewCompletedEnquiries</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="CarController.php.html#24"><abbr title="CarController::cars">cars</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ArticleController.php.html#79"><abbr title="ArticleController::deleteArticle">deleteArticle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#27"><abbr title="AdminController::loggedIn">loggedIn</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#119"><abbr title="AdminController::viewStaff">viewStaff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#35"><abbr title="AdminController::loginSubmit">loginSubmit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#52"><abbr title="AdminController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#59"><abbr title="AdminController::manufacturers">manufacturers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#69"><abbr title="AdminController::addManufacturersForm">addManufacturersForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#102"><abbr title="AdminController::submitManufacturers">submitManufacturers</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#113"><abbr title="AdminController::deleteManufacturer">deleteManufacturer</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#129"><abbr title="AdminController::editStaff">editStaff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ArticleController.php.html#61"><abbr title="ArticleController::saveArticle">saveArticle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#154"><abbr title="AdminController::saveStaff">saveStaff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#167"><abbr title="AdminController::deleteStaff">deleteStaff</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#173"><abbr title="AdminController::displayPasswordEditForm">displayPasswordEditForm</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="AdminController.php.html#194"><abbr title="AdminController::saveStaffPassword">saveStaffPassword</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ArticleController.php.html#14"><abbr title="ArticleController::home">home</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ArticleController.php.html#26"><abbr title="ArticleController::viewArticles">viewArticles</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ArticleController.php.html#36"><abbr title="ArticleController::editArticle">editArticle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="EnquiryController.php.html#72"><abbr title="EnquiryController::restoreEnquiry">restoreEnquiry</abbr></a></td><td class="text-right">0%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="CarController.php.html#149"><abbr title="CarController::deleteDir">deleteDir</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="CarController.php.html#111"><abbr title="CarController::saveCar">saveCar</abbr></a></td><td class="text-right">42</td></tr>
+       <tr><td><a href="ArticleController.php.html#61"><abbr title="ArticleController::saveArticle">saveArticle</abbr></a></td><td class="text-right">20</td></tr>
+       <tr><td><a href="AdminController.php.html#154"><abbr title="AdminController::saveStaff">saveStaff</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="AdminController.php.html#35"><abbr title="AdminController::loginSubmit">loginSubmit</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AdminController.php.html#69"><abbr title="AdminController::addManufacturersForm">addManufacturersForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AdminController.php.html#102"><abbr title="AdminController::submitManufacturers">submitManufacturers</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AdminController.php.html#129"><abbr title="AdminController::editStaff">editStaff</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AdminController.php.html#173"><abbr title="AdminController::displayPasswordEditForm">displayPasswordEditForm</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="AdminController.php.html#194"><abbr title="AdminController::saveStaffPassword">saveStaffPassword</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="ArticleController.php.html#36"><abbr title="ArticleController::editArticle">editArticle</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CarController.php.html#24"><abbr title="CarController::cars">cars</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="CarController.php.html#69"><abbr title="CarController::editCar">editCar</abbr></a></td><td class="text-right">6</td></tr>
+       <tr><td><a href="EnquiryController.php.html#48"><abbr title="EnquiryController::saveEnquiry">saveEnquiry</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 5.2.2</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.3</a> with <a href="https://xdebug.org/">Xdebug 2.6.0</a> and <a href="https://phpunit.de/">PHPUnit 6.3.0</a> at Thu Apr 12 23:14:56 BST 2018.</small>
+    </p>
+   </footer>
+  </div>
+  <script src=".js/jquery.min.js" type="text/javascript"></script>
+  <script src=".js/bootstrap.min.js" type="text/javascript"></script>
+  <script src=".js/holder.min.js" type="text/javascript"></script>
+  <script src=".js/d3.min.js" type="text/javascript"></script>
+  <script src=".js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([0,0,1,2,1,0,0,0,0,0,0,0], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([37,0,0,0,0,0,0,0,0,0,0,10], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[23.232323232323232,32,"<a href=\"AdminController.php.html#3\">AdminController<\/a>"],[24.390243902439025,13,"<a href=\"ArticleController.php.html#3\">ArticleController<\/a>"],[19.626168224299064,33,"<a href=\"CarController.php.html#3\">CarController<\/a>"],[33.33333333333333,13,"<a href=\"EnquiryController.php.html#3\">EnquiryController<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"AdminController.php.html#10\">AdminController::__construct<\/a>"],[0,1,"<a href=\"AdminController.php.html#18\">AdminController::loginForm<\/a>"],[0,1,"<a href=\"AdminController.php.html#27\">AdminController::loggedIn<\/a>"],[0,2,"<a href=\"AdminController.php.html#35\">AdminController::loginSubmit<\/a>"],[0,1,"<a href=\"AdminController.php.html#52\">AdminController::logout<\/a>"],[0,1,"<a href=\"AdminController.php.html#59\">AdminController::manufacturers<\/a>"],[0,2,"<a href=\"AdminController.php.html#69\">AdminController::addManufacturersForm<\/a>"],[100,4,"<a href=\"AdminController.php.html#87\">AdminController::validateManufacturer<\/a>"],[0,2,"<a href=\"AdminController.php.html#102\">AdminController::submitManufacturers<\/a>"],[0,1,"<a href=\"AdminController.php.html#113\">AdminController::deleteManufacturer<\/a>"],[0,1,"<a href=\"AdminController.php.html#119\">AdminController::viewStaff<\/a>"],[0,2,"<a href=\"AdminController.php.html#129\">AdminController::editStaff<\/a>"],[100,3,"<a href=\"AdminController.php.html#143\">AdminController::validateStaff<\/a>"],[0,3,"<a href=\"AdminController.php.html#154\">AdminController::saveStaff<\/a>"],[0,1,"<a href=\"AdminController.php.html#167\">AdminController::deleteStaff<\/a>"],[0,2,"<a href=\"AdminController.php.html#173\">AdminController::displayPasswordEditForm<\/a>"],[100,2,"<a href=\"AdminController.php.html#186\">AdminController::validateStaffPasswordForm<\/a>"],[0,2,"<a href=\"AdminController.php.html#194\">AdminController::saveStaffPassword<\/a>"],[100,1,"<a href=\"ArticleController.php.html#8\">ArticleController::__construct<\/a>"],[0,1,"<a href=\"ArticleController.php.html#14\">ArticleController::home<\/a>"],[0,1,"<a href=\"ArticleController.php.html#26\">ArticleController::viewArticles<\/a>"],[0,2,"<a href=\"ArticleController.php.html#36\">ArticleController::editArticle<\/a>"],[100,3,"<a href=\"ArticleController.php.html#50\">ArticleController::validateArticle<\/a>"],[0,4,"<a href=\"ArticleController.php.html#61\">ArticleController::saveArticle<\/a>"],[0,1,"<a href=\"ArticleController.php.html#79\">ArticleController::deleteArticle<\/a>"],[100,1,"<a href=\"CarController.php.html#9\">CarController::__construct<\/a>"],[0,1,"<a href=\"CarController.php.html#16\">CarController::home<\/a>"],[0,2,"<a href=\"CarController.php.html#24\">CarController::cars<\/a>"],[0,1,"<a href=\"CarController.php.html#44\">CarController::about<\/a>"],[0,1,"<a href=\"CarController.php.html#52\">CarController::careers<\/a>"],[0,1,"<a href=\"CarController.php.html#59\">CarController::viewCars<\/a>"],[0,2,"<a href=\"CarController.php.html#69\">CarController::editCar<\/a>"],[100,8,"<a href=\"CarController.php.html#85\">CarController::validateCar<\/a>"],[0,6,"<a href=\"CarController.php.html#111\">CarController::saveCar<\/a>"],[0,6,"<a href=\"CarController.php.html#149\">CarController::deleteDir<\/a>"],[0,1,"<a href=\"CarController.php.html#173\">CarController::deleteCar<\/a>"],[0,1,"<a href=\"CarController.php.html#183\">CarController::archiveCar<\/a>"],[0,1,"<a href=\"CarController.php.html#189\">CarController::archivedCars<\/a>"],[0,1,"<a href=\"CarController.php.html#198\">CarController::restoreCar<\/a>"],[100,1,"<a href=\"EnquiryController.php.html#8\">EnquiryController::__construct<\/a>"],[0,1,"<a href=\"EnquiryController.php.html#14\">EnquiryController::viewEnquiries<\/a>"],[0,1,"<a href=\"EnquiryController.php.html#24\">EnquiryController::contact<\/a>"],[100,5,"<a href=\"EnquiryController.php.html#33\">EnquiryController::validateEnquiry<\/a>"],[0,2,"<a href=\"EnquiryController.php.html#48\">EnquiryController::saveEnquiry<\/a>"],[0,1,"<a href=\"EnquiryController.php.html#58\">EnquiryController::completeEnquiry<\/a>"],[0,1,"<a href=\"EnquiryController.php.html#63\">EnquiryController::viewCompletedEnquiries<\/a>"],[0,1,"<a href=\"EnquiryController.php.html#72\">EnquiryController::restoreEnquiry<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>
